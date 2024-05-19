@@ -1,0 +1,104 @@
+{
+    "Stores": [
+        {
+            "Id": "771ff75e-548d-4dd9-9799-440b13c35b6a",
+            "StoreName": "PLHDHSTSIJ",
+            "Address": {
+                "City": "Plympton",
+                "State": "Louisiana",
+                "Country": "United States",
+                "Street": "Jefferson Ct"
+            }
+        },
+        {
+            "Id": "648fae35-5afb-4262-ac84-8e51d35d6b52",
+            "StoreName": "GRMSXVPFTJ",
+            "Address": {
+                "City": "San Martin",
+                "State": "Vermont",
+                "Country": "United States",
+                "Street": "Lincoln St"
+            }
+        },
+        {
+            "Id": "fd7c94b1-b93d-4a95-9191-376baa04bda8",
+            "StoreName": "QYVLNPTEWK",
+            "Address": {
+                "City": "Campden",
+                "State": "Kentucky",
+                "Country": "United States",
+                "Street": "Jefferson Pkwy"
+            }
+        },
+        {
+            "Id": "cc9ce997-0f8b-4756-aad6-1cbc8fffd4e3",
+            "StoreName": "NECUIFDQPJ",
+            "Address": {
+                "City": "Buffalo City",
+                "State": "Washington",
+                "Country": "United States",
+                "Street": "Wilson Pkwy"
+            }
+        },
+        {
+            "Id": "14d1c6be-aeea-4605-9ca4-e65ede5adc5e",
+            "StoreName": "BBJODJMPEJ",
+            "Address": {
+                "City": "New Deal",
+                "State": "Alabama",
+                "Country": "United States",
+                "Street": "Lincoln Pl"
+            }
+        },
+        {
+            "Id": "055fb004-838f-4d93-b8f1-e5d95864424d",
+            "StoreName": "UTGNQVJLLI",
+            "Address": {
+                "City": "New Deal",
+                "State": "South Dakota",
+                "Country": "United States",
+                "Street": "Jackson St"
+            }
+        },
+        {
+            "Id": "02cb4b66-c204-4c12-b57b-c4a184fc77db",
+            "StoreName": "WYETKHOXXV",
+            "Address": {
+                "City": "Hoonah",
+                "State": "Oregon",
+                "Country": "United States",
+                "Street": "Madison Rdg"
+            }
+        },
+        {
+            "Id": "0b4c6646-b784-4ab9-bc56-45a5903b1bc0",
+            "StoreName": "QBOCBUWMDS",
+            "Address": {
+                "City": "Burrton",
+                "State": "Kansas",
+                "Country": "United States",
+                "Street": "Jackson Rdg"
+            }
+        },
+        {
+            "Id": "a62b185a-6aaa-43bb-be9c-e8837c31193c",
+            "StoreName": "DRIPBTJKUG",
+            "Address": {
+                "City": "Hoonah",
+                "State": "Kansas",
+                "Country": "United States",
+                "Street": "Washington Blvd"
+            }
+        },
+        {
+            "Id": "59b626c6-491e-4819-833b-deb153db7e1a",
+            "StoreName": "KSNGWKXXRB",
+            "Address": {
+                "City": "Kingsbridge",
+                "State": "Michigan",
+                "Country": "United States",
+                "Street": "Washington Ct"
+            }
+        }
+    ]
+}
