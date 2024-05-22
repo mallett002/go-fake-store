@@ -1,6 +1,8 @@
 package factories
 
 import (
+	"math/rand"
+
 	random "github.com/Pallinder/go-randomdata"
 	"github.com/google/uuid"
 )
@@ -35,9 +37,11 @@ func (f *Franchise) addStore(s Store) {
 	f.Stores = append(f.Stores, s)
 }
 
-func CreateFranchise() Franchise {
-	franchise := &Franchise{}
+func (f *Franchise) addCustomer(c Customer) {
+	f.Customers = append(f.Customers, c)
+}
 
+func createStores(franchise *Franchise) {
 	for i := 0; i < 10; i++ {
 		address := Address{
 			random.City(),
@@ -50,8 +54,36 @@ func CreateFranchise() Franchise {
 
 		franchise.addStore(store)
 	}
+}
 
-	for i := 0; i < random
+func createCustomers(franchise *Franchise) {
+	for i := 0; i < random.Number(1, 20); i++ {
+		address := Address{
+			random.City(),
+			random.State(random.Large),
+			"United States",
+			random.Street(),
+		}
+
+		// pick random store from franchise
+		store := franchise.Stores[rand.Intn(len(franchise.Stores))]
+		customer := Customer{
+			Id: uuid.New(),
+			First: random.FirstName(rand.Intn(2)),
+			Last: random.LastName(),
+			Address: address,
+			Store: store,
+		}
+
+		franchise.addCustomer(customer)
+	}
+}
+
+func CreateFranchise() Franchise {
+	franchise := &Franchise{}
+
+	createStores(franchise)
+	createCustomers(franchise)
 
 	return *franchise
 }
